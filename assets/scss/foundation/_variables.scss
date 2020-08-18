@@ -45,19 +45,3 @@ $breakpoints: (
 	'lg': '1280px',
 	'xl': '1920px',
 ) !default;
-
-@mixin media($type, $bp1, $bp2:0) {
-	@if ($type == min) {
-		@media screen and (min-width: #{map-get($breakpoints, $bp1)}) {
-			@content;
-		}
-	} @else if ($type == max) {
-		@media screen and (max-width: #{map-get($breakpoints, $bp1)}) {
-			@content;
-		}
-	} @else if ($type == between) {
-		@media screen and (min-width: #{map-get($breakpoints, $bp1)}) and (max-width: #{map-get($breakpoints, $bp2)}) {
-			@content;
-		}
-	}
-}
