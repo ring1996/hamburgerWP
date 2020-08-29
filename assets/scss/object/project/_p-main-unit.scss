@@ -1,0 +1,81 @@
+.p-main-unit {
+  min-height: 642px;
+  background-image: url(/assets/images/top/top_takeOut.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 16px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  + .p-main-unit {
+    margin-top: 20px;
+    background-image: url(/assets/images/top/top_eatIn.jpg);
+  }
+  &__ttl {
+    font-size: 4rem;
+    font-weight: 700;
+    color: $color-txt-white;
+    &::after {
+      content: "";
+      display: block;
+      width: 34px;
+      height: 4px;
+      background-color: $color-bg-white;
+      margin-top: 20px;
+    }
+  }
+  &__area {
+    background-color: rgba($color-bg-white, .8);
+    padding: 20px 10px;
+    margin-top: 20px;
+    &__ttl {
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+    &__txt {
+      margin-top: 20px;
+      max-height: 72px;
+      overflow: auto;
+    }
+  }
+}
+
+@include media(min, sm) {
+  .p-main-unit {
+    width: 40.24469%;
+    + .p-main-unit {
+      margin-top: 0;
+      margin-left: 40px;
+    }
+    &__ttl {
+      font-size: 4.4rem;
+    }
+    &__area {
+      margin-top: 10px;
+      &__ttl {
+        font-size: 2.4rem;
+      }
+      &__txt {
+        max-height: 76px;
+      }
+    }
+  }
+}
+
+@include media(min, md) {
+  .p-main-unit {
+    min-height: 1193px;
+    padding: 30px 20px 20px;
+    + .p-main-unit {
+      margin-top: 0;
+      margin-left: 5.15132%;
+    }
+    &__ttl {
+      font-size: 8rem;
+      &::after {
+        width: 63px;
+        margin-top: 36px;
+      }
+    }
+  }
+}

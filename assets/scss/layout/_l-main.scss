@@ -1,0 +1,9 @@
+.l-main {
+  background-color: $color-bg-main;
+}
+
+@include media(min, md) {
+  .l-main {
+    width: 80.88542%;
+  }
+}

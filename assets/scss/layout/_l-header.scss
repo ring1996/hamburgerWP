@@ -1,0 +1,10 @@
+.l-header {
+  width: 100%;
+  background-color: $color-bg-header;
+}
+
+@include media(min, md) {
+  .l-header {
+    width: 80.88542%;
+  }
+}

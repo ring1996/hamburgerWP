@@ -1,5 +1,6 @@
 // fonts
 $font-jp: 'mplus-1m', "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-en: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-size: 1.6rem;
 $font-weight: 400;
 $line-height: 1.5;
@@ -13,13 +14,17 @@ $color-txt-white: #fff;
 $color-bg-white: #fff;
 $color-bg-gray: #707070;
 $color-bg-beige1: #fff7ef;
-$color-bg-beige2: #F2EDE9;
+$color-bg-beige2: #f2ede9;
+$color-bg-beige3: #ded8d3;
 $color-bg-brown1: #9d8670;
 $color-bg-brown2: #3c2b1c;
 
 // Parts colors
-//body
-$color-bg-body: #fffdfa;
+// body
+$color-bg-body: $color-bg-beige2;
+
+// main
+$color-bg-main: #fffdfa;
 
 // header
 $color-txt-header: $color-txt-gray;

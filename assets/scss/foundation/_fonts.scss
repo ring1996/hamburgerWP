@@ -17,3 +17,23 @@
        url("/assets/fonts/mplus-1m/Bold/mplus-1m-bold.woff") format("woff"),
        url("/assets/fonts/mplus-1m/Bold/mplus-1m-bold.eot") format("eot");
 }
+
+/* Roboto 400 */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/assets/fonts/Roboto/Regular/Roboto-Regular.woff2") format("woff2"),
+       url("/assets/fonts/Roboto/Regular/Roboto-Regular.woff") format("woff"),
+       url("/assets/fonts/Roboto/Regular/Roboto-Regular.eot") format("eot");
+}
+
+/* Roboto 700 */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/assets/fonts/Roboto/Bold/Roboto-Regular.woff2") format("woff2"),
+       url("/assets/fonts/Roboto/Bold/Roboto-Regular.woff") format("woff"),
+       url("/assets/fonts/Roboto/Bold/Roboto-Regular.eot") format("eot");
+}
