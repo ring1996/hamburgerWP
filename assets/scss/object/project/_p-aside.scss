@@ -60,8 +60,10 @@
 
 @include media(min, md) {
   .p-aside {
+    position: relative;
     width: 100%;
-    background-color: $color-bg-beige2;
+    max-width: none;
+    background-color: transparent;
     padding: 4.47917vw 2.39583vw;
     &__ttl {
       display: block;

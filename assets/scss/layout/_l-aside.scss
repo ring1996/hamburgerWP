@@ -15,10 +15,9 @@
 
 @include media(min, md) {
   .l-aside {
-    position: absolute;
-    right: 0;
-    width: 19.11458%;
+    position: static;
     height: auto;
     overflow: visible;
+    background-color: $color-bg-beige2;
   }
 }

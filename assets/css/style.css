@@ -135,7 +135,7 @@ html {
 
 body {
   color: #3c2a10;
-  background-color: #f2ede9;
+  background-color: #fffdfa;
   font-size: 1.6rem;
   font-family: "mplus-1m", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -158,20 +158,10 @@ img {
   background-color: #fff7ef;
 }
 
-@media screen and (min-width: 1024px) {
-  .l-header {
-    width: 80.88542%;
-  }
-}
-
-.l-main {
-  background-color: #fffdfa;
-}
-
-@media screen and (min-width: 1024px) {
-  .l-main {
-    width: 80.88542%;
-  }
+.l-site-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .l-main-group {
@@ -215,11 +205,10 @@ img {
 
 @media screen and (min-width: 1024px) {
   .l-aside {
-    position: absolute;
-    right: 0;
-    width: 19.11458%;
+    position: static;
     height: auto;
     overflow: visible;
+    background-color: #f2ede9;
   }
 }
 
@@ -255,9 +244,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   margin-top: 38px;
 }
@@ -341,6 +330,9 @@ img {
     margin: 0;
   }
   .p-header__search {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     margin: 0;
   }
   .p-header__search__btn {
@@ -636,8 +628,10 @@ img {
 
 @media screen and (min-width: 1024px) {
   .p-aside {
+    position: relative;
     width: 100%;
-    background-color: #f2ede9;
+    max-width: none;
+    background-color: transparent;
     padding: 4.47917vw 2.39583vw;
   }
   .p-aside__ttl {
