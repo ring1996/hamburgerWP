@@ -448,8 +448,6 @@ img {
 
 .p-main-unit__area__txt {
   margin-top: 20px;
-  max-height: 72px;
-  overflow: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -468,9 +466,6 @@ img {
   }
   .p-main-unit__area__ttl {
     font-size: 2.4rem;
-  }
-  .p-main-unit__area__txt {
-    max-height: 76px;
   }
 }
 
@@ -541,7 +536,8 @@ img {
     padding: 40px 40px 30px 40px;
   }
   .p-map__inner__txt {
-    max-height: 252px;
+    max-height: none;
+    overflow: visible;
   }
 }
 
@@ -559,7 +555,6 @@ img {
   }
   .p-map__inner__txt {
     font-size: 1.6rem;
-    max-height: 326px;
     margin-top: 64px;
   }
 }
