@@ -7,7 +7,6 @@
   <meta name="format-detection" content="email=no, telephone=no, address=no">
 
   <!-- Site -->
-  <title>Hamburger | ダミーサイト</title>
   <meta name="description" content="Hamburgerのダミーサイトを説明する文章が入ります">
 
   <!-- SNS -->
@@ -25,11 +24,10 @@
   <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/png" href="/icon-192x192.png">
 
-  <!-- StyleSheet -->
-  <link rel="stylesheet" href="/assets/css/style.css">
-
   <!-- Canonical -->
   <link rel="canonical" href="#">
+
+  <?php wp_head(); ?>
 
 </head>
 <body>
@@ -145,7 +143,6 @@
       </p>
     </div>
   </footer><!-- /l-footer -->
-  <!-- js -->
-  <script src="/assets/js/main.js"></script><!-- /js -->
+  <?php wp_footer(); ?>
 </body>
 </html>
