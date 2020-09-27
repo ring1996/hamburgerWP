@@ -18,3 +18,7 @@ img {
   height: auto;
   vertical-align: bottom;
 }
+
+body.is-active-menu {
+  overflow: hidden;
+}

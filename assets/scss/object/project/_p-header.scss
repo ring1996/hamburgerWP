@@ -33,7 +33,7 @@
       height: 46px;
       border: 1px solid $color-bg-gray;
       border-radius: 10px;
-      background: linear-gradient(to bottom, $color-bg-beige2, $color-bg-beige3);
+      background-image: linear-gradient(to bottom, $color-bg-beige2, $color-bg-beige3);
       cursor: pointer;
       &:focus {
         outline: none;
