@@ -1,6 +1,6 @@
 .p-sub-visual {
   width: 100%;
-  background-image: url(/assets/images/archive/archive.thumbnail_sp.png);
+  background-image: url("../images/archive/archive.thumbnail_sp.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -46,7 +46,7 @@
 
 @include media(min, md) {
   .p-sub-visual {
-    background-image: url(/assets/images/archive/archive.thumbnail_pc.png);
+    background-image: url("../images/archive/archive.thumbnail_pc.png");
     padding: 87px 86px 81px;
   }
 }

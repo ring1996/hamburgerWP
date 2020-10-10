@@ -1,5 +1,5 @@
 .p-main-visual {
-  background-image: url(/assets/images/top/top_mainVisual_sp.jpg);
+  background-image: url("../images/top/top_mainVisual_sp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@
 
 @include media(min, sm) {
   .p-main-visual {
-    background-image: url(/assets/images/top/top_mainVisual_tab.jpg);
+    background-image: url("../images/top/top_mainVisual_tab.jpg");
     &__catch-copy {
       padding: 117px 0 115px 86px;
     }
@@ -22,7 +22,7 @@
 
 @include media(min, md) {
   .p-main-visual {
-    background-image: url(/assets/images/top/top_mainVisual_pc.jpg);
+    background-image: url("../images/top/top_mainVisual_pc.jpg");
     &__catch-copy {
       padding: 231px 0 243px 86px;
     }
