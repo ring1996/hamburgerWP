@@ -27,7 +27,10 @@
     /*
       menu
     ----------------------------------- */
-    add_theme_support('menus');
+    register_nav_menus([
+      'category-menu' => '',
+      'footer-menu' => ''
+    ]);
 
     /*
       feed-link
