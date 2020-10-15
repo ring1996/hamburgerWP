@@ -22,3 +22,32 @@ img {
 body.is-active-menu {
   overflow: hidden;
 }
+
+/* テーマチェック対策 */
+.wp-caption {
+  position: static;
+}
+
+.wp-caption-text {
+  position: static;
+}
+
+.sticky {
+  position: static;
+}
+
+.gallery-caption {
+  position: static;
+}
+
+.bypostauthor {
+  position: static;
+}
+
+.alignright {
+  position: static;
+}
+
+.alignleft {
+  position: static;
+}
