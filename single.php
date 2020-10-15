@@ -18,6 +18,14 @@
           </header>
           <section class="p-article__body">
             <?php the_content(); ?>
+            <?php $args = array (
+                'before' => '<div class="page-split">',
+                'after' => '</div>',
+                'link_before' => '<span>',
+                'link_after' => '</span>',
+                );
+                wp_link_pages($args);
+            ?>
           </section>
         </div><!-- /p-article -->
       </main><!-- /l-main -->
