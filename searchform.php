@@ -1,4 +1,4 @@
-<form class="p-header__search" method="get" action="<?php echo home_url( '/' ); ?>">
+<form class="p-header__search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
   <div class="p-header__search__wrap">
     <input type="text" value="" name="s" class="p-header__search__window">
   </div>
