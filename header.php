@@ -7,11 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="format-detection" content="email=no, telephone=no, address=no">
 
-  <!-- favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="<?php echo esc_url(get_theme_file_uri()); ?>/favicon.ico">
-  <link rel="apple-touch-icon" type="image/png" href="<?php echo esc_url(get_theme_file_uri()); ?>/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="<?php echo esc_url(get_theme_file_uri()); ?>/icon-192x192.png">
-
   <?php wp_head(); ?>
 
 </head>
