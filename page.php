@@ -3,7 +3,7 @@
       <main class="l-main">
         <!-- p-article -->
         <?php the_post(); ?>
-        <div class="p-article">
+        <div id="post-<?php the_ID(); ?>" <?php post_class("p-article"); ?>>
           <header class="p-article__header">
             <h1 class="p-article__title"><?php the_title(); ?></h1>
             <?php if(has_post_thumbnail()) : ?>
