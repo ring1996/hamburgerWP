@@ -29,10 +29,13 @@
     ----------------------------------- */
     add_theme_support('menus');
 
+    /*
+      feed-link
+    ----------------------------------- */
+    add_theme_support('automatic-feed-links');
+
   }
   add_action('after_setup_theme', 'custom_theme_support');
-
-
 
   /*======================================
     スタイル・スクリプトの追加
