@@ -16,6 +16,7 @@
 
 </head>
 <body <?php body_class(); ?>>
+  <?php wp_body_open(); ?>
   <!-- l-site-box -->
   <div class="l-site-box">
     <!-- l-main-area -->
