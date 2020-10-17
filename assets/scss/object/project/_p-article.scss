@@ -80,6 +80,9 @@
         }
       }
     }
+    .has-media-on-the-right {
+      flex-direction: row-reverse;
+    }
     ol {
       padding-inline-start: calc(1em + 20px);
       ol {
